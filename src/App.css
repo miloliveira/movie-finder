@@ -93,7 +93,8 @@ h1 {
 }
 
 .container::-webkit-scrollbar {
-  width: 10px;
+  height: 10px;
+  width: 20px;
 }
 
 .container::-webkit-scrollbar-track {
@@ -179,7 +180,7 @@ h1 {
   }
   .search {
     padding: 0.5rem 1.5rem;
-    width: 100%;
+    width: 75%;
   }
 
   .search input {
@@ -191,9 +192,12 @@ h1 {
     height: 20px;
   }
 
+  .headingFav {
+    margin: 45px 0px 20px 0px;
+  }
   .container {
     width: 90%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   .movie {
     width: 170px;
@@ -212,15 +216,42 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
+  .search {
+    margin: 2rem 0 2rem;
+    width: 70%;
+  }
+
+  .search input {
+    font-size: 0.8rem;
+  }
   .container {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   .movie {
-    width: "100%";
+    width: 100px;
+    height: 170px;
     margin: 1rem;
+  }
+  .movieDetDiv {
+    width: 100px;
+    height: 170px;
+  }
+
+  .movieDet {
+    font-size: 0.5rem;
+  }
+
+  .firstMessage {
+    margin: 1rem 0;
+  }
+
+  .headingFav {
+    margin: 30px 0px 20px 0px;
+    color: var(--color-heading);
+    font-size: 1.5rem;
   }
 }
