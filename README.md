@@ -2,7 +2,7 @@
 
 Movie Finder is a simple project that allows you to search for movies or series by title and save the ones you like the most to your Favourites List.
 
-I used OMDbApi to get all the info about movies and series and save the favourites list to local storage.
+I used OMDbApi to get all the info about movies and series and save the favourites list to local storage. Also the project is mobile friendly.
 
 
 
